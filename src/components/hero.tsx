@@ -17,7 +17,7 @@ export default function Hero() {
                 <div className="absolute inset-0 bg-white/50"></div>
             </div>
             <div className="max-w-6xl mx-auto px-4 sm:px-6">
-                <div className="relative flex">
+                <div className="relative flex flex-col lg:flex-row">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}

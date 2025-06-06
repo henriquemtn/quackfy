@@ -41,7 +41,7 @@ const ImageCard = ({
 
 export function HeroImagesBlur() {
   return (
-    <div className="flex h-102 bg-transparent w-full flex-row items-center justify-end gap-4 overflow-hidden [perspective:300px]">
+    <div className="h-102 bg-transparent w-full flex-row items-center hidden lg:flex justify-start lg:justify-end gap-4 overflow-hidden [perspective:300px]">
       <div
         className="flex flex-row items-center gap-4"
        
