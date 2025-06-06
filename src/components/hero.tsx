@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import * as motion from 'motion/react-client'
 import { HeroImagesBlur } from './hero-images-blur'
+import PageWrapper from './page-wrapper'
 
 export default function Hero() {
     return (
@@ -16,7 +17,7 @@ export default function Hero() {
                 {/* Overlay mais claro para melhor visibilidade da imagem */}
                 <div className="absolute inset-0 bg-white/50"></div>
             </div>
-            <div className="max-w-6xl mx-auto px-4 sm:px-6">
+            <PageWrapper>
                 <div className="relative flex flex-col lg:flex-row">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -35,7 +36,7 @@ export default function Hero() {
                         <div className="mt-8">
                             <Link
                                 className="inline-flex items-center px-6 py-3 text-gray-50 bg-gray-800 hover:bg-gray-900 group shadow-[0px_12px_12px_-6px_rgba(3,7,18,.20)] rounded-lg font-medium transition-colors"
-                                href="/subscribe"
+                                href="/unlimited-access"
                             >
                                 <span>Get Unlimited Access</span>
                                 <span className="text-white/60 group-hover:translate-x-0.5 transition-transform ml-1.5">
@@ -48,7 +49,7 @@ export default function Hero() {
                     </motion.div>
                     <HeroImagesBlur />
                 </div>
-            </div>
+            </PageWrapper>
         </section>
     )
 }

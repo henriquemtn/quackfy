@@ -33,7 +33,7 @@ export default function Header() {
                                         </Link>
                                     </li>
                                     <li className="ml-5 pl-5 border-l border-gray-200">
-                                        <Link className="flex text-gray-800 hover:underline py-2 px-2" href="/entrar">
+                                        <Link className="flex text-gray-800 hover:underline py-2 px-2" href="/login">
                                             Sign In
                                         </Link>
                                     </li>

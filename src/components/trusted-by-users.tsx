@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function TrustedByUsers() {
     return (
-        <div className="flex items-center gap-2 text-sm text-gray-500 p-1 pr-3 rounded-full bg-white bg-opacity-80 shadow backdrop-blur">
+        <div className="flex max-w-max items-center gap-2 text-sm text-gray-500 p-1 pr-3 rounded-full bg-white bg-opacity-80 shadow backdrop-blur">
             <div className="flex -space-x-2 -ml-0.5">
                 <Image
                     src="/devs/henriquemtn.jpeg"
