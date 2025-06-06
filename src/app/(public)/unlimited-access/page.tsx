@@ -1,5 +1,6 @@
-import TrustedByUsers from '@/components/trusted-by-users'
+import { Metadata } from 'next';
 import React from 'react'
+import TrustedByUsers from '@/components/trusted-by-users'
 
 export default function Page() {
     return (
@@ -103,3 +104,8 @@ export default function Page() {
         </div>
     )
 }
+
+export const metadata: Metadata = {
+  title: "Get Unlimited Access | Quackfy",
+  description: "Get unlimited access to all our Tailwind CSS templates, new releases, and lifetime support for a one-time payment.",
+};

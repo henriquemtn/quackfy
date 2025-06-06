@@ -35,7 +35,7 @@ export default function Hero() {
                         {/* CTA Button */}
                         <div className="mt-8">
                             <Link
-                                className="inline-flex items-center px-6 py-3 text-gray-50 bg-gray-800 hover:bg-gray-900 group shadow-[0px_12px_12px_-6px_rgba(3,7,18,.20)] rounded-lg font-medium transition-colors"
+                                className="inline-flex items-center px-6 py-3 text-gray-50 bg-zinc-800 hover:bg-zinc-900 group shadow-[0px_12px_12px_-6px_rgba(3,7,18,.20)] rounded-lg font-medium transition-colors"
                                 href="/unlimited-access"
                             >
                                 <span>Get Unlimited Access</span>

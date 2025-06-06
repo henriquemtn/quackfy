@@ -42,9 +42,17 @@ export default function Header() {
 
                             {/* CTA Button */}
                             <div className="ml-6">
-                                <Button>
-                                    Get Started
-                                </Button>
+                                <Link
+                                    className="inline-flex items-center px-6 py-3 text-gray-50 bg-zinc-800 hover:bg-zinc-900 group shadow-[0px_12px_12px_-6px_rgba(3,7,18,.20)] rounded-lg text-sm font-medium transition-colors"
+                                    href="/unlimited-access"
+                                >
+                                    <span>Get Started</span>
+                                    <span className="text-white/60 group-hover:translate-x-0.5 transition-transform ml-1.5">
+                                        <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="11" height="11">
+                                            <path d="M5.977 10.368 4.953 9.354 8.02 6.286H.568V4.805H8.02L4.953 1.742 5.977.723 10.8 5.546z"></path>
+                                        </svg>
+                                    </span>
+                                </Link>
                             </div>
 
                             {/* Mobile Menu Button */}

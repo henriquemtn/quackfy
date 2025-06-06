@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     description: "Awesome TailwindCSS templates for your next project",
 };
 
-export default function RootLayout({
+export default function DocsLayout({
     children,
 }: Readonly<{
     children: React.ReactNode;
