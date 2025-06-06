@@ -10,8 +10,8 @@ export default function Page() {
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
                     Get everything, and more!
                 </h1>
-                <p className="text-lg text-gray-600 mb-8">
-                    Buy now and get instant access to our entire gallery of 20 Tailwind CSS templates, new upcoming releases and lifetime support & updates.
+                <p className="text-lg max-w-2xl text-gray-600 mb-8">
+                    Buy now and get instant access to our entire gallery of Tailwind CSS templates, new upcoming releases and lifetime support & updates.
                 </p>
                 
                 {/* Pricing Card */}
@@ -71,13 +71,13 @@ export default function Page() {
                                 <svg className="w-4 h-4 fill-current text-emerald-500 mr-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
                                 </svg>
-                                <span>Lifetime access to all 20+ templates</span>
+                                <span>Lifetime access to all templates</span>
                             </li>
                             <li className="flex items-center">
                                 <svg className="w-4 h-4 fill-current text-emerald-500 mr-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
                                 </svg>
-                                <span>Access to new templates as they're released</span>
+                                <span>Access to new templates as they&apos;re released</span>
                             </li>
                             <li className="flex items-center">
                                 <svg className="w-4 h-4 fill-current text-emerald-500 mr-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -90,12 +90,6 @@ export default function Page() {
                                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
                                 </svg>
                                 <span>Lifetime support & updates</span>
-                            </li>
-                            <li className="flex items-center">
-                                <svg className="w-4 h-4 fill-current text-emerald-500 mr-3 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z"></path>
-                                </svg>
-                                <span>Source files included (HTML, React, Vue)</span>
                             </li>
                         </ul>
                     </div>
