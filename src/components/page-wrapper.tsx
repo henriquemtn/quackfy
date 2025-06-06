@@ -1,8 +1,14 @@
 import React from 'react'
+import { cn } from '@/lib/utils'
 
-export default function PageWrapper({ children }: { children: React.ReactNode }) {
+interface PageWrapperProps {
+    children: React.ReactNode;
+    className?: string;
+}
+
+export default function PageWrapper({ children, className }: PageWrapperProps) {
     return (
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className={cn("max-w-6xl mx-auto px-4 sm:px-6", className)}>
             {children}
         </div>
     )
