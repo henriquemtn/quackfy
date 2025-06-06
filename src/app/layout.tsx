@@ -10,8 +10,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Quackfy",
-  description: "Seu Assistente de Tarefas",
+  title: "Quackfy | Awesome TailwindCSS Templates",
+  description: "Awesome TailwindCSS templates for your next project",
 };
 
 export default function RootLayout({
