@@ -13,7 +13,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <PageWrapper className="flex flex-row">
+        <PageWrapper className="flex flex-col md:flex-row">
             <Sidebar />
             {children}
         </PageWrapper>

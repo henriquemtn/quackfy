@@ -13,7 +13,7 @@ export default function Sidebar() {
   const pathname = usePathname()
 
   return (
-    <aside className="w-64 h-screen bg-white border-r border-gray-200">
+    <aside className="w-full md:w-64 md:h-screen bg-white border-b md:border-r border-gray-200">
       <div className="p-6">
         <h2 className="text-lg font-semibold text-gray-800">Documentation</h2>
         <nav className="mt-4">
