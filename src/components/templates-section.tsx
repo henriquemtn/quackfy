@@ -5,38 +5,12 @@ import Card from './card'
 const templates = [
   {
     id: 1,
-    title: "FinTech",
+    title: "Gray",
     description: "Modern SaaS landing page with stunning animations and clean design",
-    image: "/fintech-760x950.png",
-    link: "/templates/fintech",
-    price: "$49",
+    image: "/templates/gray.png",
+    link: "/templates/gray",
+    price: "$9",
     category: "SaaS",
-    rating: 5,
-    reviews: 89,
-    technologies: ["Next.js", "React", "Tailwind CSS"]
-  },
-   {
-    id: 2,
-    title: "Social app",
-    description: "Modern SaaS landing page with stunning animations and clean design",
-    image: "/jumpshare.png",
-    link: "/templates/fintech",
-    price: "$49",
-    category: "SaaS",
-    rating: 5,
-    reviews: 89,
-    technologies: ["Next.js", "React", "Tailwind CSS"]
-  },
-   {
-    id: 3,
-    title: "Web App",
-    description: "Modern SaaS landing page with stunning animations and clean design",
-    image: "/framer.png",
-    link: "/templates/fintech",
-    price: "$49",
-    category: "SaaS",
-    rating: 5,
-    reviews: 89,
     technologies: ["Next.js", "React", "Tailwind CSS"]
   },
 ]
@@ -64,7 +38,7 @@ export default function TemplatesSection() {
               />
             ))}
           </div>
-        </div>        
+        </div>
       </div>
     </section>
   )
